@@ -1,3 +1,3 @@
 # "Nelson Mandela" Tribute Page
-A HTML and CSS training webpage for the freeCodeCamp course. 
+A HTML and CSS training webpage for the freeCodeCamp course. <br>
 This site's theme is a Nelson Mandela tribute page.
