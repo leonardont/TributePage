@@ -1,13 +1,24 @@
-#title {
-    text-align: center;
-    font-family: Garamond, Arial;
+body {
+    background-color: black;
 }
 
-#img-div {
+.main {
+    background-color: #ececec;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+}
+
+.title {
+    text-align: center;
+    font-family: "Montserrat", Arial;
+}
+
+.img-div {
     margin-top: 25px;
 }
 
-#image {
+#image1 {
    max-width: 100%;
    width: 50%;
    max-height: 100%;
@@ -17,91 +28,89 @@
    border-radius: 15px;
    border: 3px solid black;
    box-shadow: 8px 8px 5px #b5b5b5;
+   user-drag: none; 
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
 }
 
-#img-caption {
+#img1caption {
     text-align: center;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Georgia, Arial;
-}
-
-#tribute-info {
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-h3 {
-    text-align: center;
-    margin-left: 3%;
-    margin-right: 3%;
-    font-family: Garamond, Arial;
+    font-family: "PT Sans", Arial;
 }
 
 p {
     text-align: center;
-    margin-left: 3%;
-    margin-right: 3%;
-    font-family: Georgia, Arial;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Montserrat", Arial;
+}
+
+.tribute-info {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+h3 {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: "PT Sans", Arial;
 }
 
 #title1 {
-    margin-top: 15px;
-    margin-bottom: 13px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
-#subtxt1 {
-    margin-top: 0px;
+#subtext1 {
+    margin-top: 5px;
     margin-bottom: 30px;
 }
 
 #title2 {
-    margin-top: 20px;
-    margin-bottom: 13px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
-#subtxt2 {
-    margin-top: 0px;
+#subtext2 {
+    margin-top: 5px;
     margin-bottom: 30px;
 }
 
 #title3 {
-    margin-top: 20px;
-    margin-bottom: 13px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
-#subtxt3 {
-    margin-top: 0px;
-    margin-bottom: 30px;
+#subtext3 {
+    margin-top: 5px;
+    margin-bottom: 40px;
 }
 
-#links {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-hr {
-    height: 2px;
-    background: black;
+.links {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 h4 {
     text-align: center;
-    margin-top: 9px;
-    margin-bottom: 9px;
-    font-family: Garamond, Arial;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    font-family: "Montserrat", Arial;
 }
 
-body {
-    background-color: #d9d9d9;
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 15px;
-    outline-style: solid;
-    outline-width: 200px;
+hr {
+    height: 1px;
+    background: black;
 }
